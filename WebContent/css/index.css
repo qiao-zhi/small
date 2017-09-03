@@ -1,0 +1,12 @@
+			html,body{
+				width: 100%;
+			}
+			body{
+				background-color: #EEEEEE;
+			}
+			#container {
+				margin: 0px auto;
+				text-align: left;
+				width: 30%;
+				padding-top: 150px;
+			}

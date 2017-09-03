@@ -1,0 +1,41 @@
+html, body {
+	width: 100%;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+#container {
+	margin: 0px auto;
+	text-align: left;
+	width: 90%;
+	height: 600px;
+	/* border: 1px solid green; */
+}
+
+/* 组合查询条件的div浮动且修改宽度 */
+.fudong {
+	width: 30%;
+	float: left;
+}
+
+/* 修改模态框中文本框宽度，用于显示出错信息 */
+.input-group .form-control {
+	float: left;
+	margin-bottom: 0;
+	position: relative;
+	width: 65%;
+	z-index: 2;
+}
+
+/* 脚本 */
+#footer {
+	/* position: absolute; */
+	bottom: 10px;
+	width: 100%;
+	height: 60px;
+	background-color: #EEEEEE;
+	text-align: center;
+	line-height: 60px;
+}
